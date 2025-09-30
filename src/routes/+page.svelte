@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="No more fund admin headaches"
+	subtitle="Allocator One replaces 7 disconnected systems with one seamless platform, so you can focus on deals—not paperwork."
+	imageSrc="/generated/image-a-warm-softly-lit-interior-scene-with-a-.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/a16z.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/greylock.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/bessemer.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
