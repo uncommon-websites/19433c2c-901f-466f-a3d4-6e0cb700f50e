@@ -11,94 +11,88 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Relentless execution",
+			description: "We share a passion for solving hard problems with our partners and deliver results that matter."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Partnership focus",
+			description: "Our 12-hour service level agreement isn't just a promise—it's how we build lasting relationships."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Community building",
+			description: "Supporting first and second-generation fund managers through infrastructure that scales with their success."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Built for fund managers, not back offices"
+	subtitle="Transforming fragmented fund administration into unified portfolio intelligence"
+	imageSrc="/generated/image-a-professional-fund-manager-stands-by-a-.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Most first-time fund managers face an impossible choice: spend months navigating 7+ disconnected administration systems, or focus on what they do best—sourcing deals and generating alpha. We watched talented managers get buried in operational complexity when they should have been building their portfolios. The fragmented infrastructure wasn't just inefficient; it was actively preventing the next generation of fund managers from succeeding.",
+		"Michael and Felix experienced this pain firsthand in their Wall Street careers. They saw how legacy systems created unnecessary friction at every step—from fund setup to LP reporting to portfolio tracking. So they did what only seasoned operators could: they built Allocator One from the ground up, combining Silicon Valley technology with Wall Street expertise. Our proprietary Ledger One infrastructure isn't retrofitted legacy software—it's AI-native architecture designed for the generative AI era.",
+		"Today, Allocator One transforms administrative burden into strategic advantage. We've consolidated those 7+ fragmented systems into one intelligent platform that grows with you—from fund launch to $1B+ AUM. Our 13 portfolio funds and LP partners like Budweiser, Henkel, and Fortino Capital trust us because we're not just software providers—we're partners who understand that great fund management starts with great infrastructure. When fund managers can focus on deals instead of admin, everyone wins."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Our founders."
+	subtitle="Silicon Valley technology meets Wall Street expertise."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Michael Ströck",
+			position: "Founding Partner",
+			bio: "Michael experienced the operational complexity of managing private market funds across multiple fragmented systems. His deep understanding of fund administration pain points drives his mission to create unified AI-native infrastructure.",
+			image: "/generated/image-a-confident-business-executive-stands-at.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Felix Staeritz",
+			position: "Founding Partner",
+			bio: "Felix witnessed firsthand how data silos and legacy systems constrain fund managers' ability to generate alpha. His experience with the inefficiencies of traditional fund administration fuels his conviction to build the next generation of integrated financial infrastructure.",
+			image: "/generated/image-a-professional-fund-manager-stands-by-a-.webp"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Heidi Strunz",
+			position: "Partner for Operations, Brand & Communications",
+			bio: "Heidi leads our operations and communications strategy, ensuring our partnerships with fund managers translate into exceptional experiences and meaningful business outcomes.",
+			image: "/generated/image-a-diverse-group-of-financial-professiona.webp"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Trusted by industry leaders."
+	subtitle="Selected limited partners and portfolio funds"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Fortino Capital",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "EOVC",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Heise Media Group",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to transform your fund administration?"
+	subtitle="From fragmented systems to unified intelligence"
+	description="Join the fund managers already using Allocator One to focus on what matters most—generating alpha for their investors."
 />
